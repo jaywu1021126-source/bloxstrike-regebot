@@ -135,7 +135,7 @@ MainTab:SliderInt({
     Label = "FOV Radius",
     Value = Settings.FOVRadius,
     Minimum = 10,
-    Maximum = 500,
+    Maximum = 1500,
     Callback = function(self, Value) Settings.FOVRadius = Value end,
 })
 MainTab:Checkbox({
